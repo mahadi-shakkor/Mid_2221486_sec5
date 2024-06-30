@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.demo6midexam.ViewController">
+   <children>
+      <TableView fx:id="tableView" layoutX="87.0" layoutY="264.0" prefHeight="122.0" prefWidth="454.0">
+        <columns>
+          <TableColumn fx:id="c1" prefWidth="75.0" text="C1" />
+          <TableColumn fx:id="c2" prefWidth="75.0" text="C2" />
+            <TableColumn fx:id="c3" prefWidth="75.0" text="3" />
+            <TableColumn fx:id="c4" prefWidth="75.0" text="4" />
+            <TableColumn fx:id="c5" prefWidth="75.0" text="5" />
+            <TableColumn fx:id="c6" prefWidth="75.0" text="6" />
+            <TableColumn fx:id="c7" prefWidth="75.0" text="7" />
+            <TableColumn fx:id="c8" prefWidth="75.0" text="8" />
+            <TableColumn fx:id="c9" prefWidth="75.0" text="9" />
+            <TableColumn fx:id="c10" prefWidth="75.0" text="10" />
+            <TableColumn fx:id="c11" prefWidth="75.0" text="11" />
+        </columns>
+      </TableView>
+      <Label layoutX="38.0" layoutY="27.0" text="Int id" />
+      <TextArea fx:id="textarea1" layoutX="433.0" layoutY="432.0" prefHeight="122.0" prefWidth="200.0" />
+      <Label layoutX="30.0" layoutY="63.0" text="Int name" />
+      <Label layoutX="30.0" layoutY="109.0" text="inu name" />
+      <Label layoutX="36.0" layoutY="155.0" text="pais status" />
+      <Label layoutX="30.0" layoutY="232.0" text="Show table" />
+      <ComboBox fx:id="com1" layoutX="96.0" layoutY="31.0" onAction="#sel" prefWidth="150.0" />
+      <TextField fx:id="payment" layoutX="96.0" layoutY="142.0" />
+      <TextField fx:id="uniname" layoutX="96.0" layoutY="96.0" />
+      <TextField fx:id="name" layoutX="96.0" layoutY="59.0" />
+      <Label layoutX="296.0" layoutY="27.0" text="sel truing type" />
+      <CheckBox fx:id="chack4" layoutX="459.0" layoutY="78.0" mnemonicParsing="false" text="Clo programming" />
+      <CheckBox fx:id="chack2" layoutX="459.0" layoutY="35.0" mnemonicParsing="false" text="Comm Skill" />
+      <CheckBox fx:id="chack3" layoutX="359.0" layoutY="87.0" mnemonicParsing="false" text="Bliokchain" />
+      <CheckBox fx:id="chack1" layoutX="359.0" layoutY="27.0" mnemonicParsing="false" text="String booot" />
+      <Button layoutX="138.0" layoutY="196.0" mnemonicParsing="false" onAction="#Add" prefHeight="25.0" prefWidth="390.0" text="Add train instance" />
+      <Button layoutX="550.0" layoutY="33.0" mnemonicParsing="false" onAction="#Show" prefHeight="107.0" prefWidth="104.0" text="Show trai " />
+      <Label layoutX="30.0" layoutY="391.0" text="Sel uni" />
+      <Label layoutX="26.0" layoutY="412.0" text="pay status" />
+      <ComboBox fx:id="com3" layoutX="96.0" layoutY="416.0" prefWidth="150.0" />
+      <ComboBox fx:id="cpm2" layoutX="96.0" layoutY="387.0" prefWidth="150.0" />
+      <Button layoutX="50.0" layoutY="473.0" mnemonicParsing="false" onAction="#Serch" prefHeight="25.0" prefWidth="295.0" text="Serch" />
+   </children>
+</AnchorPane>
